@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+            for(var i = 2 ; i<=100;i++ ){
+
+                for(var j =2; j < i; j++){
+                   var h = i % j;
+                    if (h == 0){
+                        var c = 0; //if c holds the value 0 means not awaly
+                        break;
+                    }
+                    c = 1;
+                }
+                 if(c==1){
+                document.write( i + '  ');
+                }
+
+            }
+      
+        
+
+    </script>
+</body>
+</html>
